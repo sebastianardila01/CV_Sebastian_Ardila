@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hoja de vida profesional de Sebastián David Ardila Cuastumal - Analista y Desarrollador de Software">
+    <title>CV | Sebastián Ardila</title>
+
+    <!-- ======================= ESTILOS CSS ======================= -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2563eb, #38bdf8);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header h2 {
+            margin-top: 10px;
+            font-weight: 300;
+        }
+
+        nav {
+            margin-top: 25px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        article {
+            background: #020617;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        }
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: #2563eb;
+            margin: 15px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            background: #1e293b;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            padding: 12px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: #2563eb;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            background: #020617;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sebastián David Ardila Cuastumal</h1>
+    <h2>Analista y Desarrollador de Software</h2>
+    <p>Estudiante ADSO – SENA</p>
+    <nav>
+        <a href="#perfil">Perfil</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#formacion">Formación</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="https://tu-bitacora.github.io" target="_blank">Bitácora</a>
+    </nav>
+</header>
+
+<main>
+    <section id="perfil">
+        <article>
+            <h3>Perfil Profesional</h3>
+            <hr>
+            <p>Soy estudiante del programa Análisis y Desarrollo de Software del SENA, con interés en el desarrollo web, bases de datos y programación. Me caracterizo por ser responsable, disciplinado y comprometido con el aprendizaje continuo.</p>
+        </article>
+    </section>
+
+    <section id="habilidades">
+        <article>
+            <h3>Habilidades Técnicas</h3>
+            <hr>
+            <ul>
+                <li>HTML5 y CSS3</li>
+                <li>Python básico</li>
+                <li>MySQL</li>
+                <li>Git y GitHub</li>
+                <li>Trabajo en equipo</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="formacion">
+        <article>
+            <h3>Formación Académica</h3>
+            <hr>
+            <p><strong>Tecnólogo en Análisis y Desarrollo de Software</strong><br>SENA – En formación</p>
+            <p><strong>Bachiller Académico</strong></p>
+        </article>
+    </section>
+
+    <section id="proyectos">
+        <article>
+            <h3>Proyectos Destacados</h3>
+            <hr>
+            <ul>
+                <li>Sistema de inventarios (HTML y CSS)</li>
+                <li>Proyecto de análisis de datos en Python</li>
+                <li>Juego Batalla Naval en PSeInt</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="contacto">
+        <article>
+            <h3>Contacto</h3>
+            <hr>
+            <form>
+                <label>Nombre completo</label>
+                <input type="text" placeholder="Tu nombre" required>
+
+                <label>Correo electrónico</label>
+                <input type="email" placeholder="correo@email.com" required>
+
+                <label>Mensaje</label>
+                <textarea rows="4" placeholder="Escribe tu mensaje" required></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Sebastián Ardila | ADSO</p>
+    <p><a href="https://github.com/">GitHub</a></p>
+</footer>
+
+</body>
+</html>
