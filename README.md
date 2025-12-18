@@ -10,8 +10,8 @@ El sitio muestra información relevante sobre mi perfil, formación académica, 
 
 La hoja de vida está desplegada mediante **GitHub Pages** y puede visitarse en el siguiente enlace:
 
-👉 file:///C:/Users/Miguel/Downloads/negro/cv_Sebastian_Ardila/index.html
-
+👉 [file:///C:/Users/Miguel/Downloads/negro/cv_Sebastian_Ardila/index.html
+](https://sebastianardila01.github.io/CV_Sebastian_Ardila/)
 ---
 
 ## 🛠️ Tecnologías utilizadas
